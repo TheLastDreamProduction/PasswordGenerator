@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="Full">
+        <div class="container">
+            <h1>Generator a<br><span>Password</span></h1>
+            <div class="display">
+                <input type="text" id="password" placeholder="Password">
+                <img src="images/copy.png" onclick="copyPassword()">
+            </div>
+            <button onclick="createPassword()">Generate Password</button>
+        </div>
+    
+        <div class="container">
+            <h1>Password<br><span>Strength</span></h1>
+            <div class="display">
+                <input type="text" id="passw" placeholder="Password">
+                <p id="message">Password is <span id="strenght"></span></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
